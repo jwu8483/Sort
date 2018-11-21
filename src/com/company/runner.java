@@ -25,7 +25,7 @@ public class runner {
         System.out.println(" ");
 
 
-        String[] arrString = inPlace.randomStringArr(10, 4);
+        String[] arrString = inPlace.randomStringArr(10, 3);
         time = System.currentTimeMillis();
         System.out.println(Arrays.toString(arrString));
         inPlace.bubbleSort(arrString);
